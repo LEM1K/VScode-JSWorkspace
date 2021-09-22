@@ -1,0 +1,6 @@
+1. const - 상수, let - 변수
+2. array : [] -> 어떤타입이든 올 수 있음
+3. array.push(val1) -> array에 추가
+4. const object = { name1: val1, name2: val2 ... } 형식으로 오브젝트 선언 가능
+5. 오브젝트내에 함수를 선언 가능
+(ex. const object = { function_name1:function() { ... } };)
