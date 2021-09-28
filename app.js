@@ -23,6 +23,12 @@ function handleWindowResize(){
 function handleWindowCopy() {
     alert("copier");
 }
+function handleWindowOffline() {
+    alert("no wifi");
+}
+function handleWindowOnline() {
+    alert("find wifi");
+}
 
 //title.addEventListener("click", handleTitleClick);
 //title.addEventListener("mouseenter", handleMouseEvent);
@@ -34,3 +40,5 @@ h1.onmouseleave = handleMouseleave;
 
 window.addEventListener("resize", handleWindowResize);
 window.addEventListener("copy", handleWindowCopy);
+window.addEventListener("offline", handleWindowOffline);
+window.addEventListener("online", handleWindowOnline);
