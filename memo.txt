@@ -8,3 +8,5 @@
 
 7. document.querySelector() -> css선택자로 element를 접근
 8. addEventListener() -> 이벤트 설정가능
+
+9. classList.toggle() -> 클릭시 클래스 리스트에서 추가 제거
