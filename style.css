@@ -1,15 +1,3 @@
-body {
-    background-color: beige;
-}
-h1 {
-    display:inline;
-    border: 1px solid gray;
-    color:cornflowerblue;
-    transition:color 1s;
-} 
-.active{
-    color:tomato;
-}
-.fon {
-    font-family: arial;
+.hidden {
+    display: none;
 }
