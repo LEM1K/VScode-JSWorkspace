@@ -39,4 +39,13 @@ const quotes = [
         quote:"나약한 태도는 그 사람 자체도 나약하게 만든다.",
         author:"아인슈타인"
     }
-]
+];
+
+const quote = document.querySelector("#quote span:first-child");
+const author = document.querySelector("#quote span:last-child");
+
+const len = quotes.length;
+const todaysQuete = quotes[Math.floor(Math.random() * len)];
+
+quote.innerText = todaysQuete.quote;
+author.innerText = todaysQuete.author;
