@@ -6,7 +6,8 @@ const greeting = document.querySelector("#greeting");
 const HIDDEN = "hidden";
 const USERNAME_KEY = "username";
 
-function paintGreeting(username) {
+function paintGreeting() {
+    const username = localStorage.getItem(USERNAME_KEY);
     greeting.innerText = `HELLO ${username}`;
     greeting.classList.remove(HIDDEN);
 }
@@ -18,10 +19,8 @@ function handleLoginSubmit(info) {
     const username = loginInput.value;
     localStorage.setItem(USERNAME_KEY , username);
     loginForm.classList.add(HIDDEN);
-    paintGreeting(username);
+    paintGreeting();
 }
-
-
 
 const savedUsername = localStorage.getItem(USERNAME_KEY);
 
@@ -31,5 +30,5 @@ if(savedUsername === null) {
 }
 else {
     loginForm.classList.add(HIDDEN);
-    paintGreeting(savedUsername);
+    paintGreeting();
 }
