@@ -1,3 +1,5 @@
-# VScode-JSWorkspace
+# To-Do-List-Web
 
-JavaScript 연습을 위한 워크스페이스
+html, css, javascript만을 이용해 제작한 to-do-list
+
+p.s. 구글 크롬의 확장 프로그램인 'momentum' 클론코딩
