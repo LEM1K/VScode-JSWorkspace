@@ -22,7 +22,8 @@ function paintTodo(newTodo) {
     const span = document.createElement("span");
     const button = document.createElement("button");
     
-    button.innerText = "DELETE";
+    button.innerText = "X";
+    button.className = "dlt_btn";
     button.addEventListener("click", deleteTodo);
     span.innerText = newTodo.text;
 
